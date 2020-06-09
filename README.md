@@ -1,9 +1,9 @@
 # QUIC-measurement-kit
-This repo is the tools & scripts used for conducting the QUIC measurement described in [1].
+This repo is the tools & scripts used for conducting the QUIC measurement described in [1] and the generated results.
 
 ### What are these files?
 
-Being said that these are a bunch of toolkits for protocol's implementation performance profiling, its hard to make them well-organized in a repo based on the fact that I need to adapt them for various opensource implementations. However, I did try the best to make them easy to read and reuse.
+Being said that these are a bunch of toolkits for protocol's implementation performance profiling, its hard to make them well-organized in a repo based on the fact that we need to adapt them for various opensource implementations. However, I did try the best to make them easy to read and reuse.
 
 In general, this repo contains 2 branches: `single_conn` and `multi_conn` and a adapted `TLEM` toolkit. `single_conn` is responsible for measurement based on a single QUIC connection, similar speak to `multi_conn`. The adapted `TLEM` is based on the built-in network simulator `TLEM` in `netmap`. I modified its source code to be able to introduce network interference only to specific packets (e.g., QUIC ACKs). 
 
