@@ -4,3 +4,12 @@
 [submodule "extern/quant"]
 	path = extern/quant
 	url = https://github.com/NTAP/quant.git
+[submodule "extern/picoquic"]
+	path = extern/picoquic
+	url = https://github.com/private-octopus/picoquic.git
+[submodule "extern/quicly"]
+	path = extern/quicly
+	url = https://github.com/h2o/quicly.git
+[submodule "extern/mvfst"]
+	path = extern/mvfst
+	url = https://github.com/facebookincubator/mvfst.git
