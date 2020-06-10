@@ -1,3 +1,6 @@
 [submodule "extern"]
 	path = extern
 	url = https://github.com/NTAP/quant.git
+[submodule "extern/quant"]
+	path = extern/quant
+	url = https://github.com/NTAP/quant.git
