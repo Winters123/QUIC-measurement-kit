@@ -1,6 +1,6 @@
 #!/bin/ bash
 # $a is the test tag (can be used to identify loss rate, etc.)
-a = $1
+a=$1
 cp server_netmap.sh ../../extern/quant/Release .
 cd ../../extern/quant/Release
 
