@@ -36,4 +36,5 @@ Any helpful contribution to the scripts is welcome:
 
 ### Reference 
 
-1. Dissecting QUIC Implementation Performance, Xiangrui et al. EuroSys2020 Poster, Greece.
+1. Dissecting QUIC Implementation Performance, Xiangrui et al. ACM EuroSys2020 Poster, Greece.
+2. Making QUIC quicker with NIC offload, Xiangrui et al. ACM SIGCOMM EPIQ, USA.
